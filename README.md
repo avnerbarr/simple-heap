@@ -23,9 +23,9 @@ Objects are comparable  `operator>` and `operator<`
 
 ```
 friend bool operator<(const Thing& item1, const Thing& item2) {
-        return item1.s <= item2.s && item1.count < item2.count;
-    }
-    friend bool operator>(const Thing& item1, const Thing& item2) {
-        return item1.s >= item2.s && item1.count > item2.count;
-    }
+        ....
+}
+friend bool operator>(const Thing& item1, const Thing& item2) {
+        ....
+}
 ```
